@@ -1,5 +1,22 @@
-Dump1090 README
-===
+
+# Dump1090 
+
+This is a fork (with no changes to the orignal source code) of the project [https://github.com/antirez/dump1090](https://github.com/antirez/dump1090).
+
+The purpose of the project is to provide a Windows 10/11 Dump1090 executable, for a PC which already has an RTL-SDR device correctly installed on it.
+
+**This does not install any drivers**
+
+It will provide you with 
+
+  - dump1090.exe 
+  - cygrtlsdr-0.dll 
+  
+This I hope will be enough for you to run this program.
+
+
+# Dump1090 README
+
 
 Dump 1090 is a Mode S decoder specifically designed for RTLSDR devices.
 
