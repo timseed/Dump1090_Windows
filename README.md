@@ -32,8 +32,28 @@ available, developed by MalcolmRobb.
 
 This contains a Windows executable **Dump1090.exe** - this was compiled on Windows 10 using Cygwin. 
 
+## How to Install 
+
+Place all the files in a folder (say D:\ADSB\dump1090) 
+
+Then open a Command Terminal (Powershell, or CMD.exe) 
+
+## RTL-SDR  Divers 
+
+This assumes you have already installed these drivers, and that you have verified the correct functioning of the RTL-SDR usb with SDRSharp (SDR#) or a similar program (gqrx etc).
 
 
+## How to run 
+
+Go to the directory 
+
+    d:
+	cd d:\ADSB\Dump1090 
+	
+And to start I suggest you start with 
+
+    Dump1090.exe --interactive 
+    
 
 Normal usage
 ---
